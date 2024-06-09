@@ -1,0 +1,55 @@
+﻿<Window x:Class="WPF.PlayerOverview"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="PlayerOverview" Height="329" Width="250"
+        WindowStartupLocation="CenterScreen">
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.3" />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Grid.Row="0" Grid.ColumnSpan="2" x:Name="imgPlayerPicture" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Center" Source="C:\Users\andru\source\repos\OOPNET-Project_Assignment\OOPNET-Project_Assignment\Images\UnknownPlayer.png" Margin="0,10"/>
+
+        <Label Grid.Row="1" Grid.Column="0" x:Name="lblLName" Content="Name:" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0"/>
+        <Label Grid.Row="1" Grid.Column="1" x:Name="lblName" Content="Andrii Popov" VerticalAlignment="Center"/>
+
+        <Label Grid.Row="2" Grid.Column="0" x:Name="lblLNumber" Content="Number:" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0"/>
+        <Label Grid.Row="2" Grid.Column="1" x:Name="lblNumber" Content="15" VerticalAlignment="Center"/>
+
+        <Label Grid.Row="3" Grid.Column="0" Content="Position:" x:Name="lblLPosition" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0"/>
+        <Label Grid.Row="3" Grid.Column="1" x:Name="lblPosition" Content="Defender" VerticalAlignment="Center"/>
+
+        <Label Grid.Row="4" Grid.Column="0" Content="Is captain:" x:Name="lblLIsCaptain" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0"/>
+        <Label Grid.Row="4" Grid.Column="1" x:Name="lblIsCapitan" Content="Yes" VerticalAlignment="Center"/>
+
+        <Label Grid.Row="5" Grid.Column="0" Content="Goals:" x:Name="lblLGoals" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0"/>
+        <Label Grid.Row="5" Grid.Column="1" x:Name="lblGoals" Content="2" VerticalAlignment="Center"/>
+
+        <Label Grid.Row="6" Grid.Column="0" Content="Yellow cards:" x:Name="lblLYellowCards" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0"/>
+        <Label Grid.Row="6" Grid.Column="1" x:Name="lblYellowCards" Content="0" VerticalAlignment="Center"/>
+    </Grid>
+</Window>

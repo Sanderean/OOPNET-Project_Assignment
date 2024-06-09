@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "OOPNET-Project_Assignment\WindowsForms.csproj", "{5E5FFB95-4EAF-46F8-921F-10EE6319E1E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{9370EFE2-33B9-456D-9D43-EDD2B6E01601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "WPF\WPF.csproj", "{E96188FD-A550-422E-893C-2AAB5EC19763}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E5FFB95-4EAF-46F8-921F-10EE6319E1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5FFB95-4EAF-46F8-921F-10EE6319E1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5FFB95-4EAF-46F8-921F-10EE6319E1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5FFB95-4EAF-46F8-921F-10EE6319E1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9370EFE2-33B9-456D-9D43-EDD2B6E01601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9370EFE2-33B9-456D-9D43-EDD2B6E01601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9370EFE2-33B9-456D-9D43-EDD2B6E01601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9370EFE2-33B9-456D-9D43-EDD2B6E01601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E96188FD-A550-422E-893C-2AAB5EC19763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96188FD-A550-422E-893C-2AAB5EC19763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96188FD-A550-422E-893C-2AAB5EC19763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96188FD-A550-422E-893C-2AAB5EC19763}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4175DA83-3578-4B5C-A9E9-660A1BB8C5A0}
+	EndGlobalSection
+EndGlobal
