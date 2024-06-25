@@ -1,4 +1,4 @@
 Gender: Male
 Language: English
 FileRead: 0
-Resolution: 800x630
+Resolution: 1920x1080

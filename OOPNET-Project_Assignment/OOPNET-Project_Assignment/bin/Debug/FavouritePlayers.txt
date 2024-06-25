@@ -1,1 +1,2 @@
-Name: JUNG Seunghyun, Is capitan: No, Shirt number: 3, Position: Defender, Country: Korea Republic (KOR)
+Name: JANG Hyunsoo, Is capitan: No, Shirt number: 20, Position: Defender, Country: Korea Republic (KOR)
+Name: JU Sejong, Is capitan: No, Shirt number: 8, Position: Midfield, Country: Korea Republic (KOR)

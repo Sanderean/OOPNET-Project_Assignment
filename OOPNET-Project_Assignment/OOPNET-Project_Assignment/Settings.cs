@@ -102,6 +102,7 @@ namespace OOPNET_Project_Assignment
                     {
                         writer.WriteLine("FileRead: " + 0);
                     }
+                    writer.WriteLine("Resolution: 1920x1080");
                 }
             }catch (Exception ex)
             {
